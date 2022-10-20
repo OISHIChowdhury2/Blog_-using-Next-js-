@@ -13,9 +13,9 @@ const Footer = () =>{
   rel="noopener noreferrer"
 >
      </a> */}
- Powered by{'Oishi Chowdhury'}
+ Powered by {'Oishi Chowdhury'}
   <span className={styles.logo}>
-    <Image src="/vercel.svg" alt="Vercel Logo" width={30} height={16} />
+    <Image src="/images (1).jpg" alt="Vercel Logo" width={30} height={16} />
   </span>
 {/* </a> */}
 </footer>

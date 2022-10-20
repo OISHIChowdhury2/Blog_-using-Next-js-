@@ -30,6 +30,10 @@
   flex-grow: 1;
 }
 
+.footer Image{
+  border-radius: 50%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -106,8 +110,25 @@
 }
 
 .logo {
-  height: 1em;
+  /* height: 1em;
   margin-left: 0.5rem;
+  border-radius: 50%;
+ */
+
+  box-sizing:border-box;
+  display:inline-block;
+  overflow:hidden;
+  width:initial;
+  height:initial;
+  background:white;
+  opacity:1;
+  border:1;
+  margin: 1px;
+  margin-left: 1px;
+  padding:0;
+  position:relative;
+  max-width:100%;
+  border-radius: 50%;
 }
 
 @media (max-width: 600px) {

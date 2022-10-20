@@ -10,7 +10,7 @@ const Blog = () =>{
          <h2>Leatest Blog</h2>
 
           <div className={styles.blogItemh1}>
-               <Link href={'/blogpost/learnjs'}>
+               <Link href={'/blogpost/learn-Javascript'}>
             <h3>How to learn javascript in 2022</h3></Link>
             <p> javascript is the language used to design logic for the server site</p>
           </div>

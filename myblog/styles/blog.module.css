@@ -15,3 +15,7 @@
    .blogItemh1{
      cursor: pointer;
    }
+
+   .container {
+    padding: 0 10rem;
+  }
